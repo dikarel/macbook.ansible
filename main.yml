@@ -1,0 +1,22 @@
+- hosts: localhost
+  connection: local
+
+  roles:
+  - geerlingguy.homebrew
+
+  vars:
+    homebrew_installed_packages:
+    - go
+    - node
+    - tldr
+    - ttygif
+
+    homebrew_cask_apps:
+    - 1password
+    - docker
+    - dropbox
+    - iterm2
+    - opera
+    - sketch
+    - slack
+    - sublime-text
