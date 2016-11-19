@@ -3,8 +3,8 @@ install:
 	@ansible-galaxy install geerlingguy.homebrew
 
 # Deploy configuration to local workstation
-deploy: install
-	@ansible-playbook main.yml -K
+deploy:
+	@ansible-playbook main.yml -i hosts -K
 
 # Generate demo recording
 demo: demo.gif
@@ -12,6 +12,10 @@ demo: demo.gif
 # Clear temporary files
 clean:
 	@rm -rf bin
+
+# Test project
+test:
+	@ansible-playbook main.yml -i hosts --syntax-check
 
 demo.gif: bin/tty.gif
 	@mv bin/tty.gif demo.gif
