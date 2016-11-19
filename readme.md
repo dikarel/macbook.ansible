@@ -1,6 +1,6 @@
 # macbook.ansible
 
-MacBook web development environment in under 5 minutes
+Simple MacBook web development environment setup
 
 ## Quickstart
 
