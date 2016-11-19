@@ -2,7 +2,7 @@
 
 Simple MacBook web development environment setup
 
-[![Build Status](https://travis-ci.org/dikarel/macbook.ansible.svg?branch=ci-integration)](https://travis-ci.org/dikarel/macbook.ansible)
+[![Build Status](https://travis-ci.org/dikarel/macbook.ansible.svg?branch=master)](https://travis-ci.org/dikarel/macbook.ansible)
 
 ## Quickstart
 
